@@ -111,14 +111,3 @@ def send(msg):
 send(post('POST', '1.1', 'developer.mozilla.org', 'fr', False, 'jungle', 'Client\\jungle.png'))
 send(get('HEAD', '1.0', 'developer.mozilla.org', 'fr','Server\\postfile.txt'))
 send(get('METHOD ', '1.6', 'developer.mozilla.org', 'fr','Server\\postfile.txt'))
-
-
-#send('number of connected clients')        
-
-
-
-#send(get('Server\\kambiz.'))
-#send('request stats')
-#send('number of connected clients')
-#send('file type stats')
-#send('disconnect')
