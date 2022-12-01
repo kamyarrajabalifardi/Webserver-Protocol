@@ -11,4 +11,4 @@ Additionally, information of the connections between server and clients is store
 Web Server
 ----------
 In this part, we built a web server and then connect to this web server with our browser!
-After running the `serverWEB.py` code, a butterfly is plotted by typing `"http://localhost:YOUR_PORT"` in the browser.
+After running the `ServerWEB.py` code, a butterfly is plotted by typing `"http://localhost:YOUR_PORT"` in the browser.
