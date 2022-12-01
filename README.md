@@ -11,15 +11,27 @@ Telnet
 ------
 In this section, we are going to connect to the HTTP server via Telnet. The server
 waits for a connection on its port and we connect to it using Telnet Protocol.
-To connect to a Server with a specific IP and port number, we enter the following command in the terminal:
+To connect to a Server with a specific IP and port number, we enter the following command in the **Linux** terminal:
 
 
 > telnet <server_ip> <server_port>
 
 
 After entering the aforementioned command, we can send some requests and the server should send an appropriate response for each request. The server handles these commands:
+* **number of connected clients**
+* **file type stats**
 
-**Note:** This section should be executed in Linux terminal.
+  By entering this command, the server should send a response containing all types of successfully sent files by
+the server to the clients. Also it should indicate the number of sent files in each type.
+* **request stats** 
+
+  By sending this request, the server should send back a response containing all types of received requests with
+the number of each request type.
+* **response stats**
+
+  By sending this request, the server should send back a response containing all types of sent responses with
+the number of each response type.
+* **disconnect**
 
 Web Server
 ----------
