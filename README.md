@@ -7,6 +7,19 @@ called responses. Some HTTP protocols that are implemented in this project are a
 
 Additionally, information of the connections between server and clients is stored in .json files. 
 
+Telnet
+------
+In this section, we are going to connect to the HTTP server via Telnet. The server
+waits for a connection on its port and we connect to it using Telnet Protocol.
+To connect to a Server with a specific IP and port number, we enter the following command in the terminal:
+
+
+> telnet <server_ip> <server_port>
+
+
+After entering the aforementioned command, we can send some requests and the server should send an appropriate response for each request. The server handles these commands:
+
+**Note:** This section should be executed in Linux terminal.
 
 Web Server
 ----------
