@@ -6,3 +6,9 @@ called responses. Some HTTP protocols that are implemented in this project are a
 `GET`, `POST`, `PUT`, `HEAD`, `DELETE` (Mostly `GET` and `POST`), and detecting errors such as `405` (Method Not Allowed) and `501` (Not Implemented).
 
 Additionally, information of the connections between server and clients is stored in .json files. 
+
+
+Web Server
+----------
+In this part, we built a web server and then connect to this web server with our browser!
+After running the `serverWEB.py` code, a butterfly is plotted by typing `"http://localhost:YOUR_PORT"` in the browser.
